@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;    
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+
+
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.second-text {
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    float: left;
+    color: #e5e7eb;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    box-shadow: none;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 32px;
+}
+
+
+img {
+    width: max-content;
+    height: 100px;
+    width: 100px;
+    border: 5px solid #1f2937;
+    border-radius: 5px;
+}
+
+.title-info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 32px;
+    padding: 32px;
+
+}
+
+
+.info {
+    font-size: 14px;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding: 32px;
+    margin: 32px;
+
+}
+
+.person {
+    font-size: large;
+    font-weight: bolder;
+    text-align: right;
+    padding: 12px;
+    margin: 12px;
+}
+
+
+.call-to-action {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    padding: 32px;
+    margin: 32px;
+}
+
+
+.call-context {
+    background-color: #3882f6;
+    color: white;
+    flex: 1;
+    padding: 10px;
+}
+
+
+.call-sign-up {
+    background-color: #3882f6;
+    padding: 10px;
+
+}
